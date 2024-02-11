@@ -2,16 +2,16 @@
 
 1.  Creation of *altschool* login user with home directory: `sudo useradd -m Altschool`
 2.  Set the password for *altschool* user:  `sudo passwd altschool` `password: altschool`
-3.  Login to *altschool* user account with altschool environment variables and home dir: `su  altschool`
+3.  Login to *altschool* user account : `su  altschool`
 4.  Create the requested directories (_code, tests, personal and misc_): `mkdir code tests personal misc`
 
   
 
 
 
-### Assignment Solutions:
+###  Solutions:
 
-| Number | Description | Commands |
+|  | Description | Commands |
 |--------|------------|----------|
 | a      | Change directory to the tests directory using absolute pathname                 | `cd /home/altschool/tests`     |
 | b      | Change directory to the tests directory using relative pathname                  | `cd tests`         |
