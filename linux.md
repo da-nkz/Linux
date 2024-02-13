@@ -23,6 +23,6 @@
 | h      | Compress the tar archive to create a misc.tar.gz file  | `gzip misc.tar`         |
 | i      | Create a user and force the user to change his/her password upon login                 |i. create new user: _tricia_ `sudo useradd tricia` <br> ii. force **tricia** password change on login: `sudo passwd -e tricia`         **or** `sudo chage -d 0 tricia`|
 | j      | Lock a users password | `sudo passwd -l tricia`         |
-| k     | Create a user with no login shell                 |  `sudo useradd -s /usr/sbin/nologin tricia`        |
+| k     | Create a user with no login shell                 |  `sudo useradd -s /usr/sbin/nologin daniel`        |
 | l     | Disable password based authentication for ssh                  | Use `sudo vim /etc/ssh/sshd_config` and set `PasswordAuthentication no`       | 
 | m     | Disable root login     | Use `sudo vim /etc/ssh/sshd_config` and set `PermitRootLogin no`          |
